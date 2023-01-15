@@ -28,6 +28,7 @@ body {
 .header {
     height: 1322px;
     background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 85px;
 }
 
 .nav-container {
@@ -101,4 +102,43 @@ body {
     width: 1440px;
     height: 700px;
     margin: 0 240px;
+}
+
+/* Quick Features styles */
+
+.quick-features{
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.quick-features-container{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick-features-container > div{
+    flex: 1;
+}
+
+.quick-features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.quick-features-title{
+    font-weight: 500;
+font-size: 45px;
+color: #727272;
+margin-bottom: 25px;
+}
+
+.quick-features-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 32px;
 }
