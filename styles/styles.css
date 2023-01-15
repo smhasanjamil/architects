@@ -257,6 +257,7 @@ body {
 
 .project-images:hover {
     transform: scale(1.25);
+    opacity: 0.5;
 
 }
 
@@ -512,7 +513,8 @@ body {
         border: 0;
         border-radius: 5px;
     }
-    .second-features-img-btn{
+
+    .second-features-img-btn {
         font-size: 0.5em !important;
     }
 
