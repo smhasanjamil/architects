@@ -106,39 +106,119 @@ body {
 
 /* Quick Features styles */
 
-.quick-features{
+.quick-features {
     width: 1400px;
     margin: 0 auto;
     margin-bottom: 130px;
 }
 
-.quick-features-container{
+.quick-features-container {
     display: flex;
     gap: 75px;
     align-items: center;
     justify-content: center;
 }
 
-.quick-features-container > div{
+.quick-features-container>div {
     flex: 1;
 }
 
-.quick-features-images{
+.quick-features-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
-.quick-features-title{
+.quick-features-title {
     font-weight: 500;
-font-size: 45px;
-color: #727272;
-margin-bottom: 25px;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 25px;
 }
 
-.quick-features-description{
+.quick-features-description {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-margin-bottom: 32px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* Second features styles */
+.second-features-section {
+    width: 1440px;
+    margin: 0 auto;
+margin-bottom: 130px;
+}
+
+.second-features-container {
+    display: flex;
+    gap: 50px;
+
+}
+
+.second-features-content {
+    margin-top: 40px;
+}
+
+.second-features-title h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    width: 468px;
+}
+
+.second-features-description p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.second-features-list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 42px 30px 30px;
+    gap: 50px;
+
+}
+
+.features-list-item {
+    box-shadow: 0px 5px 10px 0px rgba(194, 191, 191, 0.5);
+    padding: 30px 42px 30px 30px;
+}
+
+.features-list-item h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.list-item-description p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.second-features-img{
+    position: relative;
+    
+}
+
+.second-features-img button {
+    position: absolute;
+    left: -5%;
+    top: 78%;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding: 45px 42px;
+    height: 200px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
 }
