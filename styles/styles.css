@@ -248,6 +248,16 @@ body {
 .project-gallary {
     display: flex;
     justify-content: space-evenly;
+    
+}
+
+.project-images{
+    transition: transform .4s;
+}
+
+.project-images:hover{
+    transform: scale(1.25);
+    
 }
 
 .project-gallary img {
@@ -288,6 +298,13 @@ body {
     height: 150px;
     border-radius: 5px;
     padding: 50px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.fact-item-container .fact-item:hover {
+    width: 200px;
+    height: 170px;
+    transform: rotate(360deg);
 }
 
 .fact-item-images {
@@ -493,6 +510,10 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .project-gallary img {
+        width: 95%;
     }
 
     /* Sponsor Section */
