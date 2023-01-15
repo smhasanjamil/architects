@@ -248,16 +248,16 @@ body {
 .project-gallary {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-.project-images{
+.project-images {
     transition: transform .4s;
 }
 
-.project-images:hover{
+.project-images:hover {
     transform: scale(1.25);
-    
+
 }
 
 .project-gallary img {
@@ -471,6 +471,7 @@ body {
     /* Second feature */
     .second-features-section {
         width: auto;
+        margin-bottom: 150px;
     }
 
     .second-features-container {
@@ -497,7 +498,22 @@ body {
     }
 
     .second-features-img button {
-        visibility: hidden;
+
+        left: 32%;
+        text-align: center;
+        margin: 0 auto;
+        top: 100%;
+        font-weight: 700;
+        font-size: 1em;
+        color: #FFFFFF;
+        padding: 30px 30px;
+        height: 75px;
+        background-color: #FF900E;
+        border: 0;
+        border-radius: 5px;
+    }
+    .second-features-img-btn{
+        font-size: 0.5em !important;
     }
 
     /* Project Section */
