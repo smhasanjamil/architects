@@ -147,7 +147,7 @@ body {
 .second-features-section {
     width: 1440px;
     margin: 0 auto;
-margin-bottom: 130px;
+    margin-bottom: 130px;
 }
 
 .second-features-container {
@@ -204,9 +204,9 @@ margin-bottom: 130px;
     color: #727272;
 }
 
-.second-features-img{
+.second-features-img {
     position: relative;
-    
+
 }
 
 .second-features-img button {
@@ -221,4 +221,67 @@ margin-bottom: 130px;
     background-color: #FF900E;
     border: 0;
     border-radius: 5px;
+}
+
+/* Fact section Styles */
+.fact-section {
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+
+.fact-container .fact-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.fact-container .fact-description p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 542px;
+    margin-bottom: 100px;
+}
+
+.fact-item-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fact-item-container .fact-item {
+    border: 2px solid #FF900E;
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.fact-item-images {
+    text-align: center;
+}
+
+.fact-item-container .fact-item img {
+    display: block;
+    height: 45px;
+    width: 45px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.fact-item-container .fact-item h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.fact-item-description p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
 }
