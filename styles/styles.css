@@ -378,7 +378,7 @@ body {
 
 
 
-/* Media Queries */
+/* ==================================== Media Queries for small device ==================================*/
 
 @media screen and (max-width: 576px) {
 
@@ -449,6 +449,8 @@ body {
     .quick-features-description {
         padding: 20px;
     }
+
+    /* Fact section */
 
     .quick-features-btn {
         text-align: center;
@@ -553,6 +555,193 @@ body {
     .footer-section {
         width: auto;
         font-size: 0.75em;
+        text-align: center;
+    }
+
+}
+
+
+
+/* ================================== Media Queries for medium device ====================================== */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    body {
+        width: auto;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-title {
+        font-size: 2em;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .banner-description {
+        padding: 20px;
+    }
+
+    .banner-images {
+        padding: 10px;
+    }
+
+    .banner-images img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+
+    }
+
+    /* Quick geatures */
+    .quick-features-container {
+        flex-direction: column;
+    }
+
+    .quick-features {
+        width: auto;
+    }
+
+    .quick-features-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quick-features-title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .quick-features-description {
+        padding: 20px;
+    }
+
+    .quick-features-btn {
+        text-align: center;
+    }
+
+    /* fact section design */
+
+    .fact-section {
+        width: auto;
+        padding: 20px;
+    }
+
+    .fact-item-container {
+        /* flex-direction: column;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .fact-container .fact-description p {
+        width: auto;
+    }
+
+    /* Second feature */
+    .second-features-section {
+        width: auto;
+        margin-bottom: 200px;
+    }
+
+    .second-features-container {
+        flex-direction: column;
+    }
+
+    .second-features-title h1 {
+        width: auto;
+        margin: 20px;
+        font-size: 2em;
+    }
+
+    .second-features-description {
+        width: auto;
+        padding: 20px;
+    }
+
+    .second-features-img img {
+        width: 94%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+    .second-features-img button {
+
+        left: 40%;
+        text-align: center;
+        margin: 0 auto;
+        top: 100%;
+        font-weight: 700;
+        font-size: 2em;
+        color: #FFFFFF;
+        padding: 30px 30px;
+        height: 150px;
+        background-color: #FF900E;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .second-features-img-btn {
+        font-size: 0.5em !important;
+    }
+
+    /* Project Section */
+    .project-section {
+        width: auto;
+        padding: 20px;
+    }
+
+    .project-gallary {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project-gallary img {
+        width: 100%;
+    }
+
+    /* Sponsor Section */
+    .sponspors-section {
+        width: auto;
+    }
+
+    .sponspors-container p {
+        width: auto;
+    }
+
+    .sponspors-logo {
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        gap: 50px;
+    }
+
+    /* Footer Section */
+    .footer-section {
+        width: auto;
+        font-size: 1em;
         text-align: center;
     }
 
