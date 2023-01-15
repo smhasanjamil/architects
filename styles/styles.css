@@ -1,6 +1,6 @@
 * {
     /* Font */
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
     font-family: 'Work Sans', sans-serif;
 
     margin: 0;
@@ -10,4 +10,41 @@ body {
     width: 1920px;
     height: 100px;
     margin: 0 auto;
+}
+
+
+/* Nav styles */
+.header {
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title {
+    margin-top: 63px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-items {
+    margin-top: 63px;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.nav-items ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
 }
