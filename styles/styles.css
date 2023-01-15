@@ -306,8 +306,22 @@ body {
     text-align: center;
 }
 
-.sponspors-logo{
+.sponspors-logo {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 130px;
+    justify-content: space-evenly;
+    margin: 130px 130px;
+}
+
+/* Footer section design */
+.footer-section {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
