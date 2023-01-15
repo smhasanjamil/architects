@@ -12,6 +12,17 @@ body {
     margin: 0 auto;
 }
 
+.primary-btn{
+    height: 64px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 20px;
+padding: 20px 25px;
+text-align: center;
+}
 
 /* Nav styles */
 .header {
@@ -47,4 +58,34 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+
+/* Banner styles */
+.banner-container {
+    position: relative;
+    top: 150px;
+    width: 862px;
+    height: 225px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 35px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.banner-btn{
+    text-align: center;
+    margin-bottom: 50px;
 }
