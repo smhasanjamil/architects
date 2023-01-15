@@ -223,6 +223,37 @@ body {
     border-radius: 5px;
 }
 
+/* Project Section Style */
+.project-section {
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.project-title {
+    margin-bottom: 50px;
+}
+
+.project-title h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #131313;
+}
+
+.project-title h2 {
+    color: #424242;
+}
+
+.project-gallary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-gallary img {
+    border-radius: 10px;
+}
+
 /* Fact section Styles */
 .fact-section {
     width: 1440px;
