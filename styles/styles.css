@@ -285,3 +285,29 @@ body {
     font-size: 20px;
     color: #727272;
 }
+
+/* sponspors section design */
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sponspors-container p {
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: 542px;
+    color: #727272;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sponspors-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
